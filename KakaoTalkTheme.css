@@ -195,10 +195,10 @@ BackgroundStyle-Passcode
     -ios-background-image: 'passcodeBgImage.png';
 }
 
-LabelStyle-PasscodeTitle
-{
+/* LabelStyle-PasscodeTitle */
+/* { */
     /* -ios-text-color: #664242; */
-}
+/* } */
 
 
 PasscodeStyle
