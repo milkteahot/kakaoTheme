@@ -53,29 +53,29 @@ TabBarStyle-Main
 
 HeaderStyle-Main
 {
-    -ios-text-color: #669ECC;
+    -ios-text-color: #445672;
 
-    -ios-tab-text-color: #A6C7E2;
-    -ios-tab-highlighted-text-color: #669ECC;
+    -ios-tab-text-color: #bdc5d1;
+    -ios-tab-highlighted-text-color: #445672;
 }
 
 MainViewStyle-Primary
 {
-    background-color: #F9FBFD;
+    background-color: #ffffff;
     /* -ios-background-image: 'mainBgImage.png'; */
 
     /* 텍스트 스타일 */
-    -ios-text-color: #346E9E;                                   /* Title : 리스트 목록*/
+    -ios-text-color: #445672;                                   /* Title : 리스트 목록*/
     -ios-highlighted-text-color: #346E9E;                       /* Title Pressed */
     
-    -ios-description-text-color: #7595B0;                       /* Description : 상태메세지 */
+    -ios-description-text-color: #7e8b9e;                       /* Description : 상태메세지 */
     -ios-description-highlighted-text-color: #7595B0;           /* Description Pressed */
 
     -ios-paragraph-text-color: #7595B0;                         /* Paragraph : 라스트메세지 */ 
     -ios-paragraph-highlighted-text-color: #7595B0;             /* Paragraph Pressed*/
 
     /* 셀 스타일 */
-    -ios-normal-background-color: #F9FBFD;                      /* Cell Background */
+    -ios-normal-background-color: #ffffff;                      /* Cell Background */
     -ios-normal-background-alpha: 0.0;
     
     -ios-selected-background-color: #FFFFFF;                    /* Cell Background Pressed */
@@ -92,7 +92,7 @@ SectionTitleStyle-Main
     border-color: rgb(205, 208, 212);
     border-alpha: 0.09;
     
-    -ios-text-color: #7595B0;
+    -ios-text-color: #616d77;
     -ios-text-alpha: 1.0;
 }
 
@@ -103,7 +103,7 @@ SectionTitleStyle-Main
 
 FeatureStyle-Primary                                            /* Primary : 버튼 텍스트 */
 {
-    -ios-text-color: #C3D5D1;
+    -ios-text-color: #a0c0cf;
 }
 
 
@@ -130,7 +130,7 @@ DefaultProfileStyle
 
 BackgroundStyle-ChatRoom
 {
-    background-color: #EDF4F9;
+    background-color: #c9e1f4;
     -ios-background-image: 'chatroomBgImage.png';
 }
 
@@ -144,7 +144,7 @@ InputBarStyle-Chat
     -ios-send-normal-foreground-color: #FFFFFF;
     
     /* -ios-send-highlighted-background-color: #F27979; */
-    -ios-send-highlighted-foreground-color: #EFEFEF;
+    -ios-send-highlighted-foreground-color: #FFFFFF;
 
     /* 그밖의 버튼 */
     -ios-button-normal-foreground-color: #CFDEEA;
@@ -165,9 +165,9 @@ MessageCellStyle-Send
     -ios-title-edgeinsets: 10px 10px 7px 12px;  /* top, left, bottom, right */
     -ios-group-title-edgeinsets: 10px 10px 7px 12px;
 
-    -ios-text-color: #6498C2;
+    -ios-text-color: #445672;
     /* -ios-selected-text-color: #4D4D4D; */
-    -ios-unread-text-color: #6498C2;
+    -ios-unread-text-color: #445672;
 }
 
 MessageCellStyle-Receive
@@ -179,9 +179,9 @@ MessageCellStyle-Receive
     -ios-title-edgeinsets: 10px 16px 7px 10px;  /* top, left, bottom, right */
     -ios-group-title-edgeinsets: 10px 16px 7px 10px;
 
-    -ios-text-color: #6498C2;
+    -ios-text-color: #445672;
     /* -ios-selected-text-color: #4D4D4D; */
-    -ios-unread-text-color: #6498C2;
+    -ios-unread-text-color: #445672;
 }
 
 
@@ -231,7 +231,7 @@ BackgroundStyle-MessageNotificationBar
 
 LabelStyle-MessageNotificationBarName
 {
-    -ios-text-color: #346E9E;
+    -ios-text-color: #445672;
 }
 
 LabelStyle-MessageNotificationBarMessage
