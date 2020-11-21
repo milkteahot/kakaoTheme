@@ -20,7 +20,7 @@ TabBarStyle-Main
 {
     /* 배경 이미지 */
     background-color: #F9FBFD;
-    /* -ios-background-image: 'maintabBgImage.png'; */
+    -ios-background-image: 'maintabBgImage.png';
     		/* 배경 이미지 top-center-crop */
     
     /* 친구탭 */
